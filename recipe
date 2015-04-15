@@ -77,7 +77,8 @@
      <li>Open all the cans with the can opener</li>
      <li>When the meat is through cooking dump all the cans into the pot</li>
      <li>Measure the Chili powder and cayenne pepper and dump into the pot</li>
-     <li>Lower heat and slow simmer for 2 hours, stirring occasionally</li><br>
+     <li>Lower heat and slow simmer for 2 hours, stirring occasionally</li>
+    </ol> 
 
      <form action="#" method="POST" name="Signup for our news letter">
      	<fieldset>
@@ -85,7 +86,7 @@
            <label for="username">Username:</label>
      	    <input type="text" name="username" id="username">
      	   <label for="email_address">Email_address:</label> 
-     	    <input type="email_address" name="email_address" id="email_address"
+     	    <input type="email_address" name="email_address" id="email_address">
      	   <label for="Favorite food type">What is your favorite type of food:</label> 
      	    <select name="Favorite food type" id="Favorite food type">
      		   <option>Italian</option>
@@ -97,16 +98,17 @@
      		   <option>Mexican</option>
      		   <option>Haute Cuisine</option>
      		   <option>scottish</option>
-        </fieldset>
 
-     	</select>
      	<input type="submit" value="Join">
+     	</select>   
+        </fieldset>
 
      </form>
 
      <footer>
-       <p>Steve Sheldon</p>
-       <p>Contact me at: <a href="nekidsteve@gmail.com">nekidsteve@gmail.com</a>Phone# 727-867-5823</p>
+       
+       <p>Steve Sheldon <a href="mailto:nekidsteve@gmail.com">nekidsteve@gmail.com</a>Phone# 727-867-5823</p>
+     </footer>  
 </body>   
 
 </html>
