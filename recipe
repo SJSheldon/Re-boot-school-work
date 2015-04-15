@@ -98,9 +98,9 @@
      		   <option>Mexican</option>
      		   <option>Haute Cuisine</option>
      		   <option>scottish</option>
-
+            </select>
      	<input type="submit" value="Join" />
-     	    </select>   
+     	       
         </fieldset>
 
      </form>
