@@ -84,9 +84,9 @@
      	<fieldset>
      	  <legend>Join our mailing list</legend>
            <label for="username">Username:</label>
-     	    <input type="text" name="username" id="username">
+     	    <input type="text" name="username" id="username" />
      	   <label for="email_address">Email_address:</label> 
-     	    <input type="email_address" name="email_address" id="email_address">
+     	    <input type="email_address" name="email_address" id="email_address" />
      	   <label for="Favorite food type">What is your favorite type of food:</label> 
      	    <select name="Favorite food type" id="Favorite food type">
      		   <option>Italian</option>
@@ -99,7 +99,7 @@
      		   <option>Haute Cuisine</option>
      		   <option>scottish</option>
 
-     	<input type="submit" value="Join">
+     	<input type="submit" value="Join" />
      	    </select>   
         </fieldset>
 
