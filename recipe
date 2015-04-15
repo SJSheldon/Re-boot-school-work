@@ -100,7 +100,7 @@
      		   <option>scottish</option>
 
      	<input type="submit" value="Join">
-     	</select>   
+     	    </select>   
         </fieldset>
 
      </form>
