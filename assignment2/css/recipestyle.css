@@ -1,0 +1,32 @@
+
+body {
+   font-family: Arial;
+   color: #555555;
+   
+}
+
+footer p {
+	font-size: 12px;
+}
+h1 {
+	color:black;
+}
+table th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+#firstcol {
+  width: 100px;
+  font-weight: bold;
+
+
+}
+#instructions {
+    margin-top: 40px;
+
+}
+tr:hover {
+   background-color: #feffdb;
+
+}
