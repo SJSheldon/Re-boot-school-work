@@ -16,17 +16,22 @@ table th {
 	font-size: 14px;
 	text-align: left;
 }
-#firstcol {
-  width: 100px;
-  font-weight: bold;
+tr:first-child, td:first-child {
+   width: 100px;
+   font-weight: bold;
+
+}
 
 
 }
 #instructions {
     margin-top: 40px;
 
+
 }
 tr:hover {
    background-color: #feffdb;
-
+   cursor: pointer;
+  
 }
+
