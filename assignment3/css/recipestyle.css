@@ -1,0 +1,80 @@
+
+body {
+   font-family: Arial;
+   color: #555555;
+   
+}
+
+footer p {
+	font-size: 12px;
+}
+h1 {
+	color:black;
+  font-size: 18px;
+}
+h2 {
+   font-size: 24px;
+
+}
+table th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+tr:first-child, td:first-child {
+   width: 100px;
+   font-weight: bold;
+
+}
+
+#instructions {
+    margin-top: 40px;
+
+
+}
+tr:hover {
+   background-color: #feffdb;
+   cursor: pointer;
+  
+}
+
+.yellow-box {
+   background-color: #feffdb;
+   border-style: solid;
+   height: 100px;
+   width: 200px;
+   border-color: #444444;
+   }
+
+hr {
+ color: #dddddd;
+ margin-top: 40px;
+
+}
+.Greybox {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  color: purple;
+  text-decoration: underline;
+}
+
+body {
+  font-color: #555555;
+
+}
+
+img {
+  width: 100px;
+
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  border: 1px solid;
+  border-color: #8abd2b;
+  background-color: #c8f279;
+  float: right;
+
+}
