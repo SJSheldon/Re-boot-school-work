@@ -2,9 +2,7 @@
 body {
    font-family: Arial;
    color: #555555;
-   
-}
-
+   }
 footer p {
 	font-size: 12px;
 }
@@ -14,7 +12,6 @@ h1 {
 }
 h2 {
    font-size: 24px;
-
 }
 table th {
 	height: 40px;
@@ -24,20 +21,14 @@ table th {
 tr:first-child, td:first-child {
    width: 100px;
    font-weight: bold;
-
 }
-
 #instructions {
     margin-top: 40px;
-
-
 }
-tr:hover {
+tr :hover {
    background-color: #feffdb;
    cursor: pointer;
-  
 }
-
 .yellow-box {
    background-color: #feffdb;
    border-style: solid;
@@ -45,11 +36,9 @@ tr:hover {
    width: 200px;
    border-color: #444444;
    }
-
 hr {
  color: #dddddd;
  margin-top: 40px;
-
 }
 .Greybox {
   height: 100px;
@@ -58,17 +47,9 @@ hr {
   color: purple;
   text-decoration: underline;
 }
-
-body {
-  font-color: #555555;
-
-}
-
 img {
   width: 100px;
-
 }
-
 .button {
   height: 30px;
   width: 100px;
@@ -76,5 +57,4 @@ img {
   border-color: #8abd2b;
   background-color: #c8f279;
   float: right;
-
 }
