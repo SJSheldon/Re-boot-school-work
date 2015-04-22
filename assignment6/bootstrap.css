@@ -1,0 +1,35 @@
+.box1 {
+	display: block;
+	margin: 0 15px;
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 50%;
+	border: solid 1px green;
+
+}
+.box2 {
+	display: block;
+	margin: 0 15px;
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 50%;
+	border: solid 1px green;
+
+}
+.box3 {
+	display: block;
+	margin: 0 15px;
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 50%;
+	border: solid 1px green;
+
+}
+
+p {
+  font-size: 10px;
+
+}
