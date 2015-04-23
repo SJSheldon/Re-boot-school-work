@@ -3,44 +3,51 @@ console.log(name);
 
 
 var myArray = ["Steve", "Mirta", "Kieron", "Patrick"];
-console.log(myArray[1]);
+console.log(myArray);
 
+
+//button.5
+document.getElementById("myname").addEventListener("click", function() {
+    console.log(name);
+});
+
+//button 1
 document.getElementById("hi").addEventListener("click", function() {
-    console.log("hello" + " Steve");
+    console.log("hello" + name);
 }, false);
 
-
+//button 2
 document.getElementById("array").addEventListener("click", function() {
     console.log(myArray[1]);
 }, false);
 
-for (i = 0; i < myArray.length; i++) {
-    if (myArray[i] === "P") {
-        for (var j = i; j < (myArray.length + i); j++) {
+//button 3
+document.getElementById("count").addEventListener("click", function() {
+    for (i = 1; i < 11; i++) {
+        console.log(i);
+    }
+});
+
+
+//button 4
+document.getElementById("arrayname").addEventListener("click", function() {
+    console.log(myArray);
+}, false);
+
+//button5
+document.getElementById("P").addEventListener("click", function() {
+    for (i = 0; i < myArray.length; i++) {
+        if (myArray[i].substring(0, 1) === "P") {
             console.log(myArray[i])
         }
     }
-}
-
-
-document.getElementById("P").addEventListener("click", function() {
-    console.log(myArray[i]);
 }, false);
 
-for (i = 1; i <= 10; i++); {
-    console.log(i)
-}
-document.getElementById("for").addEventListener("click", function() {
-    console.log(i);
-}, false);
+//button 6
+document.getElementById("honk").addEventListener("click", function() {
+    car.honk();
+})
 
-for (i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]);
-}
-
-document.getElementById("arrayname").addEventListener("click", function() {
-    console.log(myArray[i]);
-}, false);
 
 var car = {
     doors: 4,
@@ -48,3 +55,11 @@ var car = {
         console.log("honk");
     }
 };
+
+
+
+
+
+for (i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
