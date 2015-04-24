@@ -33,8 +33,10 @@ $(document).ready(function() {
 
     //button 4
     document.getElementById("arrayname").addEventListener("click", function() {
-        console.log(myArray);
-    }, false);
+        for (i = 0; i < myArray.length; i++) {
+            console.log(myArray[i]);
+        }
+    });
 
     //button5
     document.getElementById("P").addEventListener("click", function() {
@@ -64,9 +66,7 @@ $(document).ready(function() {
         }
     };
 
-    for (i = 0; i < myArray.length; i++) {
-        console.log(myArray[i]);
-    }
+
 
 
     $("#hi").hover(function() {
