@@ -7,6 +7,12 @@ $(document).ready(function() {
     var myArray = ["Steve", "Mirta", "Kieron", "Patrick"];
     console.log(myArray);
 
+ var car = {
+        doors: 4,
+        honk: function() {
+            console.log("honk");
+        }
+    };
 
     //button0
     document.getElementById("myname").addEventListener("click", function() {
@@ -59,18 +65,11 @@ $(document).ready(function() {
     })
 
 
-    var car = {
-        doors: 4,
-        honk: function() {
-            console.log("honk");
-        }
-    };
-
-
-
-
-    $("#hi").hover(function() {
-        $(".button1").css("color", "purple");
+   $("#hi").hover(function() {
+   $(".button1").css("background-color", "purple");
+    }, function(){
+     $(".button1").css("background-color", "yellow");   
+    
 
     });
 
