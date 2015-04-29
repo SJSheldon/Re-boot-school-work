@@ -1,0 +1,48 @@
+.jumbotron {
+    margin-bottom: 25px;
+    background-image: url(../images/computerboard.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;   
+    height:300px; 
+
+}
+.jumbonavbar {
+	background-color: none;
+	color: yellow;
+}
+
+ .nav a {
+	color: yellow;
+}
+.container {
+	padding: 30px;
+	border: solid 1px lightgrey;
+    
+}
+#contact {
+	
+	height: 100px;
+}
+#skills {
+	background-color: lightgray;
+}
+#statistics {
+	
+	height: 225px;
+}
+#stufficando {
+	background-color: lightgray;
+}
+#workstatus {
+	
+}
+#resume {
+	background-color: lightgray;
+}
+#customers {
+	background-color: 
+}#contactme {
+	
+	background-color: lightgray
+}
